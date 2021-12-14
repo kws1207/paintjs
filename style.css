@@ -19,14 +19,14 @@ body {
 }
 
 .controls {
-	margin-top: 50px;
+	margin-top: 30px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
 .controls .controls__btns {
-	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 .controls__btns button {
@@ -58,5 +58,11 @@ body {
 }
 
 .controls .controls__range {
-	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.controls__range label {
+	font-weight: 600;
+	font-size: 16px;
+	margin-right: 10px;
 }
